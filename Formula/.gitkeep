@@ -1,0 +1,2 @@
+# Placeholder so the Formula/ directory exists from day one. CI populates it
+# with `soll-pr-<N>.rb` files; the cleanup workflow removes them when PRs close.
