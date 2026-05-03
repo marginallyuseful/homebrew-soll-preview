@@ -1,22 +1,22 @@
 class SollPr115 < Formula
   desc "Soll preview build (PR #115)"
   homepage "https://github.com/marginallyuseful/soll"
-  version "0.0.0-pr.115.7e34dc09"
+  version "0.0.0-pr.115.3c8505ea"
   license :cannot_represent
 
   on_macos do
-    url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-115-7e34dc09/soll-pr-115-macos-arm64"
-    sha256 "6e44e97148443afb03a010569a8c444d2821292ef3b2267390be58abb3fbdf07"
+    url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-115-3c8505ea/soll-pr-115-macos-arm64"
+    sha256 "d79994e2ae36de55265ee5073a1afcc4968dc81ca6a710d72e18106a66c33445"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-115-7e34dc09/soll-pr-115-linux-arm64"
-      sha256 "b1424e2fb173d4ead43d8234f7d71911f6b1a5a1877247af9ed85ed88ef2d7ea"
+      url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-115-3c8505ea/soll-pr-115-linux-arm64"
+      sha256 "dda06d0060ddcd9d5d4b3475371cb24ab67776fe7c0b1ff6af176720a54ab51e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-115-7e34dc09/soll-pr-115-linux-x64"
-      sha256 "95d10513973f02aac0876691db4d91fab699a0c4fbfc69eaf93ace49ab274704"
+      url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-115-3c8505ea/soll-pr-115-linux-x64"
+      sha256 "2469199bd1426d8ae17a88d2eb120d6953aaf53d3401e3a3ab8e2d0d8f26ec2a"
     end
   end
 
