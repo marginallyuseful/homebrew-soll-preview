@@ -1,22 +1,22 @@
 class SollPr123 < Formula
   desc "Soll preview build (PR #123)"
   homepage "https://github.com/marginallyuseful/soll"
-  version "0.0.0-pr.123.c943c80c"
+  version "0.0.0-pr.123.a19ae455"
   license :cannot_represent
 
   on_macos do
-    url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-123-c943c80c/soll-pr-123-macos-arm64"
-    sha256 "25030acdc6a70d1d05c6779e77106e0c698c2e398266542ade80fc129f952396"
+    url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-123-a19ae455/soll-pr-123-macos-arm64"
+    sha256 "9b51c9b8763f636dd43437d64f122ca03b1be2239857cfde39f8f9e83b5b2691"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-123-c943c80c/soll-pr-123-linux-arm64"
-      sha256 "1c1e01b36dd17ea2a57e56fddb2be7241d8b74eff5ff9d0c87f403c6f8baef7e"
+      url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-123-a19ae455/soll-pr-123-linux-arm64"
+      sha256 "65ae773b73ea2f44608b873fd6e68cb63dc38ef694c35027a805bd8038b5d5a8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-123-c943c80c/soll-pr-123-linux-x64"
-      sha256 "f269bcdb28ccfac3160ebaf7f8abf30bfb224b41a8f65b2c7b7d94a2536876f4"
+      url "https://github.com/marginallyuseful/homebrew-soll-preview/releases/download/pr-123-a19ae455/soll-pr-123-linux-x64"
+      sha256 "892eb5295f8ed80ad6f53e97bb72df823a1adbc3c76527a2d676f815f709d1cd"
     end
   end
 
